@@ -1,0 +1,412 @@
+
+
+/* EQL Template_last updated 2016-06-22 */
+
+
+
+
+
+  /* Materials-------------------------------------------------------*/
+	.img_materials {
+	  background: url(../images/bg_productimg.jpg);
+	  background-size: cover;;
+		background-position: center;
+	  height: 600px;
+	  padding: 30px 0px;
+		text-align: center;
+		font-family: 微軟正黑體;
+		color: #fff;
+	}
+
+	@media (max-width:992px){
+
+		.img_materials {
+			min-height:1000px;
+			min-width:1920px;
+		}
+	}
+
+
+
+
+
+		/* 產品介紹 */
+
+		.backgroundvi {
+			background: url(../images/bg_essencevi8.jpg);
+			height: 100px;
+			background-size:cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			padding: 20px 0px;
+		}
+
+
+    .apple {
+			font-size: 18px;
+		}
+		.stonee {
+			color: #4a4a4a;
+			font-size: 18px;
+		}
+		.content-1-3 h4 {
+			font-size: 20px;
+		}
+		.mask h4 {
+			font-size: 30px;
+		}
+		#content-3-10 {
+			background-color: #F0F0F0;
+		}
+		.polution-pic {
+			min-height: 400px;
+		}
+		.polution-text {
+			min-height: 400px;
+			vertical-align: middle;
+			padding: 60px 20px ;
+		}
+		.texthere {
+			vertical-align: middle;
+			text-align: center;
+		}
+		.texthere h1 {
+			padding-bottom: 40px;
+		}
+		.texthere p {
+			font-size: 32px;
+			font-weight: bold;
+			color: #fff;
+		}
+		.airpolution {
+			padding: 0px 60px 30px 60px;
+			font-size: 18px;
+			font-weight: 400;
+			color: #585757;
+			text-align: left;
+		}
+		.solution {
+			font-size: 16px;
+			color:#fff;
+			text-align: center;
+		}
+		.p1 {
+			font-size: 24px;
+		}
+
+		/*----call for realization-----*/
+
+		.callforrealization {
+			
+			min-height: 180px;
+			text-align: center;
+			Padding: 65px 0px;
+		}
+
+		.callforrealization h4 {
+			color: #4a4a4a;
+			font-weight: 400;
+		}
+/*----END OF call for realization-----*/
+
+
+/*----- Introduce product-------*/
+    .aurotitle {
+			color: #f1513b;
+		}
+		.orangee {
+		font-size: 16px;
+	  }
+
+/*-----End of Introduce product-------*/
+
+/*-----six features---------*/
+
+    .six_features {
+			padding: 50px 0 0 0;
+		}
+		.six {
+			margin-top: 30px;
+		}
+    .col-md-4 {
+			text-align: center;
+			margin-top: 30px;
+		}
+
+    .features_app {
+			text-align: center;
+		}
+
+		/*--.aurologotype {
+			padding-bottom: 20px;
+		}--*/
+		.ledintro {
+			padding-top: 40px;
+		}
+		.ledintro p {
+			color:#c4382a;
+		}
+		.text-center p {
+			padding-top: 10px;
+		}
+    .polution-text {
+			text-align:center;
+		}
+		.inthemiddlebtn {
+			float: right;
+		}
+		.content-3-6 hr {
+			width: 10%;
+			border-width: 2px;
+			border-color: #c4382a;
+		}
+		.content-2-2 .underlined-title p {
+			color: #c4382a;
+			font-size: 18px;
+		}
+    .content-2-2 .underlined-title {
+			padding-bottom: 50px;
+		}
+		#contact
+			{
+				background: #EDEDED;
+			}
+
+			#newsletter
+			{
+				overflow: hidden;
+				padding: 8em 0em;
+				background: #EDEDED;
+				text-align: center;
+			}
+
+			#newsletter .title h2
+			{
+				color: #506266;
+				font-weight:normal;
+			}
+
+			#newsletter .content
+			{
+				width: 600px;
+				margin: 0px auto;
+			}
+
+			.title
+			{
+				margin-bottom: 3em;
+				text-align:center;
+			}
+
+			.title h2
+			{
+				font-size: 36px;
+				color: #506266;
+				margin-bottom:10px;
+			}
+
+			.title .byline
+			{
+				letter-spacing: 0.15em;
+				text-transform: uppercase;
+				font-weight: 400;
+				font-size: 1.1em;
+				color: #6F6F6F;
+			}
+
+			.post
+			{
+				margin-bottom: 3em;
+				padding-bottom: 4em;
+				border-bottom: 1px solid;
+				border-color:  rgba(0,0,0,.1);
+			}
+
+			@media (max-width:992px){
+			   .padding8p { padding:0px 8%; }
+			}
+
+
+
+		/* Form Style-----------------------------------------------------------*/
+
+				form
+				{
+				}
+
+					form label
+					{
+						display: block;
+						text-align: left;
+						margin-bottom: 0.5em;
+					}
+
+					form .submit
+					{
+						margin-top: 2em;
+						background: #e97874;
+						line-height: 1.5em;
+						font-size: 1.3em;
+					}
+
+					form input.text,
+					form select,
+					form textarea
+					{
+						position: relative;
+						-webkit-appearance: none;
+						display: block;
+						border: 0;
+						background: #fff;
+						background: rgba(255,255,255,0.75);
+						width: 100%;
+						border-radius: 0.50em;
+						margin: 1em 0em;
+						padding: 1.50em 1em;
+						box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
+						border: solid 1px rgba(0,0,0,0.15);
+						-moz-transition: all 0.35s ease-in-out;
+						-webkit-transition: all 0.35s ease-in-out;
+						-o-transition: all 0.35s ease-in-out;
+						-ms-transition: all 0.35s ease-in-out;
+						transition: all 0.35s ease-in-out;
+						font-family: 'Source Sans Pro', sans-serif;
+						font-size: 1em;
+						outline: none;
+					}
+
+						form input.text:hover,
+						form select:hover,
+						form textarea:hover
+						{
+						}
+
+						form input.text:focus,
+						form select:focus,
+						form textarea:focus
+						{
+							box-shadow: 0 0 2px 1px #E0E0E0;
+							background: #fff;
+						}
+
+						form textarea
+						{
+							min-height: 12em;
+						}
+
+						form .formerize-placeholder
+						{
+							color: #555 !important;
+						}
+
+						form ::-webkit-input-placeholder
+						{
+							color: #555 !important;
+						}
+
+						form :-moz-placeholder
+						{
+							color: #555 !important;
+						}
+
+						form ::-moz-placeholder
+						{
+							color: #555 !important;
+						}
+
+						form :-ms-input-placeholder
+						{
+							color: #555 !important;
+						}
+
+						form ::-moz-focus-inner
+						{
+							border: 0;
+						}
+
+/* FAQ-----------------------------------------------------------*/
+
+/*.book img{
+	margin-bottom: 80px;
+}*/
+.underlined-title .appicon {
+	padding-bottom: 20px;
+}
+.underlined-title p {
+	font-size: 20px;
+	color: #f1513b;
+	font-weight: 500;
+}
+
+.SPEC_BG{
+width: auto;
+height: auto;
+display: block;
+background-color: grey;
+background-image: url(../images/spec_bg.jpg);
+background-position: right bottom;;
+background-size: cover;
+padding-top: 60px;
+padding-bottom: 100px;
+}
+
+
+.SPEC_BG h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.SPEC_BG table{
+  margin:0 auto;
+  font-size: 18px;
+
+}
+.SPEC_BG th{
+font-weight: bolder;
+
+}
+
+
+.table td {
+	width: 40px;
+}
+.DOWNLOAD{
+  padding: 100px 0;
+
+}
+.col-md-3 .DOWNLOAD_BOX {
+	text-align: center;
+  display: block;
+	border: 2px solid #FFABAB;
+	border-radius: 4px;
+/*  margin: 30px 0px;*/
+/*border: 1px solid #00AEEF;*/
+  padding: 40px 10px 10px 10px ;
+	min-height: 550px;
+	margin-bottom: 20px;
+}
+.DOWNLOAD_BOX img{
+  margin: 0 auto;
+/*margin-top: 30px;
+margin-bottom: 20px;*/
+}
+.DOWNLOAD_BOX p{
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+}
+.DOWNLOAD_BOX h2{
+font-weight: 500;
+color: #4a4a4a;
+text-align: center;
+font-size: 28px;
+}
+/*.DOWNLOAD_BOX a{
+  margin: 0 auto;
+  text-align: center;
+}*/
+
+.book img {
+	margin-top: 20px;
+	padding-top: 20px;
+}
